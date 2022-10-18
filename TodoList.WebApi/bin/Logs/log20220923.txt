@@ -1,0 +1,299 @@
+2022-09-23 10:45:49.241 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-09-23 10:45:49.271 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-09-23 10:52:53.450 +05:00 [ERR] Int ga parse qilishda error bo'ldi ToDoService/GetAllAsync
+2022-09-23 10:52:53.642 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-09-23 10:52:53.646 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-09-23 10:53:57.630 +05:00 [ERR] Int ga parse qilishda error bo'ldi ToDoService/GetAllAsync
+2022-09-23 10:53:57.810 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-09-23 10:53:57.815 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-09-23 10:56:05.547 +05:00 [ERR] Int ga parse qilishda error bo'ldi ToDoService/GetAllAsync
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Int32.Parse(String s)
+   at TodoList.WebApi.Services.TodoService.GetAllAsync(PaginationParams params) in C:\Users\O'tkirbek\Desktop\TodoList\TodoList.WebApi\Services\TodoService.cs:line 42
+2022-09-23 10:56:05.959 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-09-23 10:56:05.963 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-09-23 11:02:34.433 +05:00 [ERR] Int ga parse qilishda error bo'ldi ToDoService/GetAllAsync
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Int32.Parse(String s)
+   at TodoList.WebApi.Services.TodoService.GetAllAsync(PaginationParams params) in C:\Users\O'tkirbek\Desktop\TodoList\TodoList.WebApi\Services\TodoService.cs:line 42
+2022-09-23 11:02:37.769 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-09-23 11:02:38.201 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-09-23 11:02:59.924 +05:00 [INF] Now listening on: https://localhost:7260
+2022-09-23 11:03:00.805 +05:00 [INF] Now listening on: http://localhost:5260
+2022-09-23 11:03:00.953 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - -
+2022-09-23 11:03:01.251 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 11:03:01.684 +05:00 [INF] Hosting environment: Development
+2022-09-23 11:03:02.204 +05:00 [INF] Content root path: C:\Users\O'tkirbek\Desktop\TodoList\TodoList.WebApi\
+2022-09-23 11:03:02.328 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - -
+2022-09-23 11:03:02.393 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - - - 200 - text/html;charset=utf-8 1447.2056ms
+2022-09-23 11:03:02.829 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 500.4333ms
+2022-09-23 11:03:02.925 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - -
+2022-09-23 11:03:03.825 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 899.9626ms
+2022-09-23 11:03:13.971 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/api/Todos - -
+2022-09-23 11:03:14.572 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.TodosController.GetAllAsync (TodoList.WebApi)'
+2022-09-23 11:03:15.262 +05:00 [INF] Route matched with {action = "GetAll", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync(TodoList.WebApi.Utils.PaginationParams) on controller TodoList.WebApi.Controllers.TodosController (TodoList.WebApi).
+2022-09-23 11:03:16.627 +05:00 [INF] Entity Framework Core 6.0.9 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.7+5b98e4b74de93b590b44aef8dd7967c03acc433c' with options: None
+2022-09-23 11:03:17.382 +05:00 [ERR] Int ga parse qilishda error bo'ldi ToDoService/GetAllAsync
+System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Int32.Parse(String s)
+   at TodoList.WebApi.Services.TodoService.GetAllAsync(PaginationParams params) in C:\Users\O'tkirbek\Desktop\TodoList\TodoList.WebApi\Services\TodoService.cs:line 42
+2022-09-23 11:03:18.074 +05:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[TodoList.WebApi.Models.ToDo, TodoList.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-09-23 11:03:18.796 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-09-23 11:03:19.432 +05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2022-09-23 11:03:20.488 +05:00 [INF] Executed DbCommand (75ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Definition", t."FromDate", t."Title", t."ToDate"
+FROM "ToDos" AS t
+LIMIT @__p_0 OFFSET @__p_0
+2022-09-23 11:03:21.108 +05:00 [INF] Executed action TodoList.WebApi.Controllers.TodosController.GetAllAsync (TodoList.WebApi) in 5360.3125ms
+2022-09-23 11:03:21.617 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.TodosController.GetAllAsync (TodoList.WebApi)'
+2022-09-23 11:03:22.216 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/api/Todos - - - 200 - application/json;+charset=utf-8 8245.0743ms
+2022-09-23 18:21:21.773 +05:00 [INF] Now listening on: https://localhost:7260
+2022-09-23 18:21:22.811 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger - -
+2022-09-23 18:21:23.065 +05:00 [INF] Now listening on: http://localhost:5260
+2022-09-23 18:21:23.601 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger - - - 301 0 - 792.9994ms
+2022-09-23 18:21:23.612 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - -
+2022-09-23 18:21:23.682 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 18:21:24.232 +05:00 [INF] Hosting environment: Development
+2022-09-23 18:21:24.412 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - - - 200 - text/html;charset=utf-8 800.4319ms
+2022-09-23 18:21:24.420 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/swagger-ui-bundle.js - -
+2022-09-23 18:21:24.420 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/swagger-ui-standalone-preset.js - -
+2022-09-23 18:21:24.421 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - -
+2022-09-23 18:21:24.430 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/swagger-ui.css - -
+2022-09-23 18:21:24.784 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 363.6647ms
+2022-09-23 18:21:24.880 +05:00 [INF] Content root path: C:\Users\O'tkirbek\Desktop\TodoList\TodoList.WebApi\
+2022-09-23 18:21:24.975 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-09-23 18:21:25.149 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-09-23 18:21:25.155 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-09-23 18:21:25.634 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 1214.2109ms
+2022-09-23 18:21:25.791 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 1371.4947ms
+2022-09-23 18:21:25.791 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/swagger-ui.css - - - 200 143632 text/css 1361.2101ms
+2022-09-23 18:21:26.023 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - -
+2022-09-23 18:21:27.067 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1044.3865ms
+2022-09-23 18:21:36.413 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Todos application/json 158
+2022-09-23 18:21:37.057 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.TodosController.CreateAsync (TodoList.WebApi)'
+2022-09-23 18:21:37.854 +05:00 [INF] Route matched with {action = "Create", controller = "Todos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync(TodoList.WebApi.ViewModels.Todos.TodoCreateViewModel) on controller TodoList.WebApi.Controllers.TodosController (TodoList.WebApi).
+2022-09-23 18:21:39.491 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-09-23 18:21:40.041 +05:00 [INF] Executed action TodoList.WebApi.Controllers.TodosController.CreateAsync (TodoList.WebApi) in 1176.048ms
+2022-09-23 18:21:40.521 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.TodosController.CreateAsync (TodoList.WebApi)'
+2022-09-23 18:21:41.279 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Todos application/json 158 - 400 - application/problem+json;+charset=utf-8 4866.5129ms
+2022-09-23 18:39:12.193 +05:00 [INF] Now listening on: https://localhost:7260
+2022-09-23 18:39:12.807 +05:00 [INF] Now listening on: http://localhost:5260
+2022-09-23 18:39:13.250 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 18:39:13.673 +05:00 [INF] Hosting environment: Development
+2022-09-23 18:39:14.152 +05:00 [INF] Content root path: C:\Users\O'tkirbek\Desktop\TodoList\TodoList.WebApi\
+2022-09-23 18:40:45.749 +05:00 [INF] Now listening on: https://localhost:7260
+2022-09-23 18:40:46.514 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - -
+2022-09-23 18:40:46.757 +05:00 [INF] Now listening on: http://localhost:5260
+2022-09-23 18:40:47.175 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - - - 200 - text/html;charset=utf-8 666.8188ms
+2022-09-23 18:40:47.186 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - -
+2022-09-23 18:40:47.241 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 18:40:47.489 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 303.5045ms
+2022-09-23 18:40:47.562 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - -
+2022-09-23 18:40:47.714 +05:00 [INF] Hosting environment: Development
+2022-09-23 18:40:48.127 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 564.8519ms
+2022-09-23 18:40:48.160 +05:00 [INF] Content root path: C:\Users\O'tkirbek\Desktop\TodoList\TodoList.WebApi\
+2022-09-23 18:41:10.806 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryBOpNQCThgNlUb3JC 364
+2022-09-23 18:41:11.349 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 18:41:11.819 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 18:41:12.159 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-09-23 18:41:12.600 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 481.8313ms
+2022-09-23 18:41:13.023 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 18:41:13.527 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryBOpNQCThgNlUb3JC 364 - 400 - application/problem+json;+charset=utf-8 2721.3666ms
+2022-09-23 19:04:35.274 +05:00 [INF] Now listening on: https://localhost:7260
+2022-09-23 19:04:36.190 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - -
+2022-09-23 19:04:36.603 +05:00 [INF] Now listening on: http://localhost:5260
+2022-09-23 19:04:37.081 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - - - 200 - text/html;charset=utf-8 892.7449ms
+2022-09-23 19:04:37.092 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - -
+2022-09-23 19:04:37.412 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 19:04:37.858 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 765.4903ms
+2022-09-23 19:04:37.919 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - -
+2022-09-23 19:04:38.161 +05:00 [INF] Hosting environment: Development
+2022-09-23 19:04:39.522 +05:00 [INF] Content root path: C:\Users\O'tkirbek\Desktop\TodoList\TodoList.WebApi\
+2022-09-23 19:04:39.623 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1703.2362ms
+2022-09-23 19:05:03.732 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryCJFCglkQq3f08GNA 362
+2022-09-23 19:05:04.587 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:05:05.161 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 19:05:05.708 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-09-23 19:05:07.067 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 1395.483ms
+2022-09-23 19:05:07.751 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:05:08.777 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryCJFCglkQq3f08GNA 362 - 400 - application/problem+json;+charset=utf-8 5043.8655ms
+2022-09-23 19:05:33.338 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundarye6Gkmz9EzAmzpj49 368
+2022-09-23 19:05:35.892 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:05:37.033 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 19:05:38.034 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-09-23 19:05:38.953 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 920.6688ms
+2022-09-23 19:05:40.496 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:05:41.510 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundarye6Gkmz9EzAmzpj49 368 - 400 - application/problem+json;+charset=utf-8 8171.5018ms
+2022-09-23 19:06:03.684 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundarybe7bmSoklIHXBRPk 370
+2022-09-23 19:06:09.162 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:06:13.060 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 19:06:16.810 +05:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-09-23 19:06:18.687 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 1883.3398ms
+2022-09-23 19:06:24.182 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:06:26.502 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundarybe7bmSoklIHXBRPk 370 - 200 0 - 22818.0812ms
+2022-09-23 19:06:35.423 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundary6arjFN5JaiTe2CkJ 370
+2022-09-23 19:06:36.144 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:06:37.602 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 19:06:38.169 +05:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-09-23 19:06:39.234 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 1067.7428ms
+2022-09-23 19:06:40.047 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:06:40.849 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundary6arjFN5JaiTe2CkJ 370 - 200 0 - 5425.8302ms
+2022-09-23 19:07:13.725 +05:00 [INF] Now listening on: https://localhost:7260
+2022-09-23 19:07:14.429 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - -
+2022-09-23 19:07:15.033 +05:00 [INF] Now listening on: http://localhost:5260
+2022-09-23 19:07:15.251 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - - - 200 - text/html;charset=utf-8 825.1139ms
+2022-09-23 19:07:15.263 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - -
+2022-09-23 19:07:15.612 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 19:07:15.866 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 602.9831ms
+2022-09-23 19:07:15.983 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - -
+2022-09-23 19:07:16.293 +05:00 [INF] Hosting environment: Development
+2022-09-23 19:07:16.779 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 795.9724ms
+2022-09-23 19:07:17.108 +05:00 [INF] Content root path: C:\Users\O'tkirbek\Desktop\TodoList\TodoList.WebApi\
+2022-09-23 19:07:30.888 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryxFkif07ufxX2mrS1 370
+2022-09-23 19:07:31.329 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:07:31.853 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 19:07:32.286 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-09-23 19:07:32.748 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 509.3062ms
+2022-09-23 19:07:33.164 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:07:33.566 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryxFkif07ufxX2mrS1 370 - 400 - application/problem+json;+charset=utf-8 2677.9976ms
+2022-09-23 19:07:39.056 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundary8cwdHzqb5w4pypk4 372
+2022-09-23 19:07:39.452 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:07:39.942 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 19:07:40.234 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-09-23 19:07:40.660 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 428.2712ms
+2022-09-23 19:07:41.093 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:07:41.535 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundary8cwdHzqb5w4pypk4 372 - 400 - application/problem+json;+charset=utf-8 2478.9764ms
+2022-09-23 19:07:48.887 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryzpLATCXwCiLXBBGA 374
+2022-09-23 19:07:49.340 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:07:49.789 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 19:07:50.094 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-09-23 19:07:50.552 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 459.2217ms
+2022-09-23 19:07:51.059 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:07:51.531 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryzpLATCXwCiLXBBGA 374 - 400 - application/problem+json;+charset=utf-8 2643.4336ms
+2022-09-23 19:08:27.638 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundary8vjyygNMqPRLuUWK 376
+2022-09-23 19:08:28.140 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:08:28.602 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 19:08:28.901 +05:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-09-23 19:08:29.306 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 413.7979ms
+2022-09-23 19:08:29.731 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:08:30.153 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundary8vjyygNMqPRLuUWK 376 - 200 0 - 2515.1648ms
+2022-09-23 19:19:45.941 +05:00 [INF] Now listening on: https://localhost:7260
+2022-09-23 19:19:46.745 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - -
+2022-09-23 19:19:46.796 +05:00 [INF] Now listening on: http://localhost:5260
+2022-09-23 19:19:47.589 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 19:19:47.746 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - - - 200 - text/html;charset=utf-8 1003.7004ms
+2022-09-23 19:19:47.759 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - -
+2022-09-23 19:19:49.005 +05:00 [INF] Hosting environment: Development
+2022-09-23 19:19:49.462 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 1702.1975ms
+2022-09-23 19:19:49.529 +05:00 [INF] Content root path: C:\Users\O'tkirbek\Desktop\TodoList\TodoList.WebApi\
+2022-09-23 19:19:49.544 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - -
+2022-09-23 19:19:50.181 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 636.6549ms
+2022-09-23 19:20:00.671 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryM0tXZFJSnmiWPiGE 446
+2022-09-23 19:20:01.128 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:20:01.633 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 19:20:02.012 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-09-23 19:20:02.496 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 521.7299ms
+2022-09-23 19:20:02.967 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:20:03.488 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryM0tXZFJSnmiWPiGE 446 - 400 - application/problem+json;+charset=utf-8 2816.0611ms
+2022-09-23 19:21:59.674 +05:00 [INF] Now listening on: https://localhost:7260
+2022-09-23 19:22:00.155 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - -
+2022-09-23 19:22:02.268 +05:00 [INF] Now listening on: http://localhost:5260
+2022-09-23 19:22:02.452 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - - - 200 - text/html;charset=utf-8 2301.2656ms
+2022-09-23 19:22:02.460 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - -
+2022-09-23 19:22:03.474 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 19:22:04.228 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 1768.3257ms
+2022-09-23 19:22:04.285 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - -
+2022-09-23 19:22:04.384 +05:00 [INF] Hosting environment: Development
+2022-09-23 19:22:06.438 +05:00 [INF] Content root path: C:\Users\O'tkirbek\Desktop\TodoList\TodoList.WebApi\
+2022-09-23 19:22:09.761 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5476.2412ms
+2022-09-23 19:22:22.833 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryuFmkUoWWmAhKxKOy 446
+2022-09-23 19:22:23.353 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:22:23.818 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 19:22:24.162 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-09-23 19:22:24.631 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 506.0188ms
+2022-09-23 19:22:25.080 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:22:25.563 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryuFmkUoWWmAhKxKOy 446 - 400 - application/problem+json;+charset=utf-8 2729.4255ms
+2022-09-23 19:22:35.885 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryHzbNT32e0eIIfzFK 454
+2022-09-23 19:22:36.390 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:22:36.924 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 19:22:37.384 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-09-23 19:22:37.965 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 584.5908ms
+2022-09-23 19:22:38.806 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:22:39.608 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryHzbNT32e0eIIfzFK 454 - 400 - application/problem+json;+charset=utf-8 3722.7956ms
+2022-09-23 19:22:46.396 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryAgu15KB3257uRibQ 456
+2022-09-23 19:22:48.001 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:22:49.487 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 19:22:50.146 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-09-23 19:22:51.053 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 907.3984ms
+2022-09-23 19:22:52.554 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:22:54.874 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryAgu15KB3257uRibQ 456 - 400 - application/problem+json;+charset=utf-8 8477.8246ms
+2022-09-23 19:23:23.826 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundary5ZpXe6UBAeG00TrC 454
+2022-09-23 19:23:24.237 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:23:24.732 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 19:23:25.073 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-09-23 19:23:25.511 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 438.5942ms
+2022-09-23 19:23:25.957 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:23:26.394 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundary5ZpXe6UBAeG00TrC 454 - 400 - application/problem+json;+charset=utf-8 2568.3280ms
+2022-09-23 19:28:43.720 +05:00 [INF] Now listening on: https://localhost:7260
+2022-09-23 19:28:44.561 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - -
+2022-09-23 19:28:45.023 +05:00 [INF] Now listening on: http://localhost:5260
+2022-09-23 19:28:45.365 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - - - 200 - text/html;charset=utf-8 805.9933ms
+2022-09-23 19:28:45.374 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - -
+2022-09-23 19:28:46.376 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-23 19:28:46.707 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 1333.0955ms
+2022-09-23 19:28:46.773 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - -
+2022-09-23 19:28:47.627 +05:00 [INF] Hosting environment: Development
+2022-09-23 19:28:48.043 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1269.7545ms
+2022-09-23 19:28:48.379 +05:00 [INF] Content root path: C:\Users\O'tkirbek\Desktop\TodoList\TodoList.WebApi\
+2022-09-23 19:29:09.032 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryXEYA7Ai0fBQqxhPk 556
+2022-09-23 19:29:09.622 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:29:10.191 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 19:29:10.630 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-09-23 19:29:11.373 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 772.899ms
+2022-09-23 19:29:12.171 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:29:12.870 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryXEYA7Ai0fBQqxhPk 556 - 400 - application/problem+json;+charset=utf-8 3838.1388ms
+2022-09-23 19:29:24.775 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryVFos954tSEfQviDY 554
+2022-09-23 19:29:25.623 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:29:26.581 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 19:29:28.709 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-09-23 19:29:30.432 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 1723.9593ms
+2022-09-23 19:29:31.373 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:29:32.086 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryVFos954tSEfQviDY 554 - 400 - application/problem+json;+charset=utf-8 7310.4078ms
+2022-09-23 19:29:42.870 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundary3REzSt0BvNf57DIG 553
+2022-09-23 19:29:43.744 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:29:44.336 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 19:29:44.922 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-09-23 19:29:45.524 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 604.6602ms
+2022-09-23 19:29:46.200 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:29:46.806 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundary3REzSt0BvNf57DIG 553 - 400 - application/problem+json;+charset=utf-8 3935.2380ms
+2022-09-23 19:29:53.023 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryheq7AWOeIh9EyohQ 552
+2022-09-23 19:29:53.485 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:29:53.943 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 19:29:54.226 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-09-23 19:29:54.657 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 432.0671ms
+2022-09-23 19:29:55.147 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:29:55.673 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryheq7AWOeIh9EyohQ 552 - 400 - application/problem+json;+charset=utf-8 2650.4419ms
+2022-09-23 19:30:05.164 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryv81adysKTN2UTEne 551
+2022-09-23 19:30:05.890 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:30:06.976 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 19:30:07.426 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-09-23 19:30:08.157 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 732.5483ms
+2022-09-23 19:30:08.810 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:30:09.420 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryv81adysKTN2UTEne 551 - 400 - application/problem+json;+charset=utf-8 4255.1632ms
+2022-09-23 19:30:22.270 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundarykowWF2sUYqC7xHmW 558
+2022-09-23 19:30:22.673 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:30:23.099 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 19:30:23.476 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-09-23 19:30:23.917 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 442.5348ms
+2022-09-23 19:30:24.375 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:30:24.821 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundarykowWF2sUYqC7xHmW 558 - 400 - application/problem+json;+charset=utf-8 2550.7625ms
+2022-09-23 19:30:39.658 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryvRQQP5CcgmUDnBmo 559
+2022-09-23 19:30:41.926 +05:00 [INF] Executing endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:30:43.035 +05:00 [INF] Route matched with {action = "Post", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostAsync(TodoList.WebApi.ViewModels.Users.UserViewModel) on controller TodoList.WebApi.Controllers.UsersController (TodoList.WebApi).
+2022-09-23 19:30:43.853 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-09-23 19:30:44.350 +05:00 [INF] Executed action TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi) in 497.309ms
+2022-09-23 19:30:44.813 +05:00 [INF] Executed endpoint 'TodoList.WebApi.Controllers.UsersController.PostAsync (TodoList.WebApi)'
+2022-09-23 19:30:45.282 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7260/api/Users multipart/form-data;+boundary=----WebKitFormBoundaryvRQQP5CcgmUDnBmo 559 - 400 - application/problem+json;+charset=utf-8 5623.7911ms

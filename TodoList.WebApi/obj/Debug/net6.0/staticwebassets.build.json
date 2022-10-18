@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "cw2uZb02QEMrHPrARDnhOnMpnCfHPB1+/cwN6grfYhk=",
+  "Source": "TodoList.WebApi",
+  "BasePath": "_content/TodoList.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TodoList.WebApi\\wwwroot",
+      "Source": "TodoList.WebApi",
+      "ContentRoot": "C:\\Users\\asus\\Desktop\\TodoList\\TodoList.WebApi\\wwwroot\\",
+      "BasePath": "_content/TodoList.WebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

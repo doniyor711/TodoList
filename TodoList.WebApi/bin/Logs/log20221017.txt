@@ -1,0 +1,24 @@
+2022-10-17 19:39:24.312 +05:00 [INF] Now listening on: https://localhost:7260
+2022-10-17 19:39:25.969 +05:00 [INF] Now listening on: http://localhost:5260
+2022-10-17 19:39:26.056 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger - -
+2022-10-17 19:39:26.430 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 19:39:26.659 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger - - - 301 0 - 610.1842ms
+2022-10-17 19:39:26.774 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/index.html - -
+2022-10-17 19:39:26.882 +05:00 [INF] Hosting environment: Development
+2022-10-17 19:39:27.320 +05:00 [INF] Content root path: C:\Users\asus\Desktop\TodoList\TodoList.WebApi\
+2022-10-17 19:39:28.165 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/index.html - - - 200 - text/html;charset=utf-8 1393.2622ms
+2022-10-17 19:39:28.216 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/swagger-ui.css - -
+2022-10-17 19:39:28.243 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/swagger-ui-bundle.js - -
+2022-10-17 19:39:28.288 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/swagger-ui-standalone-preset.js - -
+2022-10-17 19:39:28.335 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 19:39:28.351 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/_vs/browserLink - -
+2022-10-17 19:39:30.350 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 2014.7470ms
+2022-10-17 19:39:30.450 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-10-17 19:39:30.501 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-10-17 19:39:30.502 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2151.7799ms
+2022-10-17 19:39:30.521 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-10-17 19:39:30.917 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/swagger-ui.css - - - 200 143632 text/css 2700.6050ms
+2022-10-17 19:39:30.952 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 2664.2517ms
+2022-10-17 19:39:31.001 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 2757.3825ms
+2022-10-17 19:39:31.262 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - -
+2022-10-17 19:39:31.749 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7260/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 486.7208ms
